@@ -1,0 +1,31 @@
+{
+  "include": ["**/*.js", "**/*.jsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+			// "~/*": ["./app/*"],
+			"@assets/*": ["./app/assets/*"],
+			"@components/*": ["./app/components/*"],
+			"@context/*": ["./app/context/*"],
+			"@controllers/*": ["./app/controllers/*"],
+			"@hooks/*": ["./app/hooks/*"],
+			"@layouts/*": ["./app/layouts/*"],
+			"@routes/*": ["./app/routes/*"],
+			"@utils/*": ["./app/utils/*"],
+			"@lib/*": ["./app/lib/*"],
+			"@config/*": ["./app/config/*"],
+			"@redux/*": ["./app/redux/*"]
+		},
+    "noEmit": true
+  }
+}

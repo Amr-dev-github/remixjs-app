@@ -1,0 +1,1 @@
+export const API = process.env.NODE_ENV === "development" ? "https://jsonplaceholder.typicode.com" : "production";

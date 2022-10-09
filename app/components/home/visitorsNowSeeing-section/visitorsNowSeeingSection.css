@@ -1,0 +1,70 @@
+.VisitorsNowSeeingSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 40px;
+	width: calc(100% - 200px);
+	height: 387px;
+	margin: 0 100px;
+}
+
+.VisitorsNowSeeingSectionHeader {
+	position: relative;
+	width: 100%;
+	height: 38px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: right;
+	color: #1f1f1f;
+}
+
+.VisitorsNowSeeingSectionCards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 27px;
+	width: 100%;
+	height: 309px;
+	background: #ffffff;
+	border-radius: 12px;
+}
+
+.VisitorsNowSeeingSectionCard {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 8px 0px;
+	gap: 32px;
+	width: 282px;
+	height: 277px;
+}
+
+.VisitorsNowSeeingSectionCard p:first-child {
+	width: 282px;
+	height: 200px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: right;
+	color: #30a698;
+}
+
+.VisitorsNowSeeingSectionCard p:last-child {
+	width: 71px;
+	height: 29px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: right;
+	color: #1f1f1f;
+}

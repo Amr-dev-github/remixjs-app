@@ -1,0 +1,144 @@
+.NewPostSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 40px;
+	width: calc(100% - 200px);
+	height: 578px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.NewPostSectionHeader {
+	position: relative;
+	width: 100%;
+	height: 38px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: right;
+	color: #1f1f1f;
+}
+
+.NewPostSectionCards {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+	width: 100%;
+	height: 388px;
+}
+
+.NewPostSectionCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+	gap: 24px;
+	width: 292px;
+	height: 388px;
+	background: #ffffff;
+	box-shadow: 29px 51px 23px rgba(173, 179, 173, 0.01),
+		16px 29px 20px rgba(173, 179, 173, 0.05),
+		7px 13px 15px rgba(173, 179, 173, 0.09),
+		2px 3px 8px rgba(173, 179, 173, 0.1), 0px 0px 0px rgba(173, 179, 173, 0.1);
+	border-radius: 12px;
+}
+
+.NewPostSectionCardImage {
+	background-image: url("/assets/images/vincent-guth-62V7ntlKgL8-unsplash4.jpg");
+	width: 267px;
+	height: 177px;
+	border-radius: 12px;
+}
+.NewPostSectionCardBody {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	width: 267px;
+	height: 120px;
+}
+.NewPostSectionCardBodyTitle {
+	width: 100%;
+	height: 24px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #3fafa2;
+}
+.NewPostSectionCardBodyText {
+	width: 100%;
+	height: 80px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 40px;
+	color: #1f1f1f;
+}
+.NewPostSectionCardFooter {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	gap: 66px;
+	width: 267px;
+	height: 19px;
+}
+.NewPostSectionCardFooterText1 {
+	width: 124px;
+	height: 19px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #1f1f1f;
+}
+.NewPostSectionCardFooterText2 {
+	height: 19px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+.NewPostSectionButton {
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px ;
+	gap: 8px;
+	width: 238px;
+	height: 72px;
+	background: #30a698;
+	border: 1px solid #30a698;
+	border-radius: 12px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+}
+.NewPostSectionButton i {
+ width: 40px;
+ height: 40px;
+ background-image: url("/assets/svg/arrow.svg");
+}

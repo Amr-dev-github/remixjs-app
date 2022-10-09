@@ -1,0 +1,140 @@
+.IntroSection {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(
+		180deg,
+		rgba(62, 125, 70, 0) 0%,
+		rgba(58, 106, 70, 0.2) 74.98%
+	);
+	background-image: url("/assets/images/pexels-8376099.jpg");
+	background-size: cover;
+}
+
+.IntroSectionToolBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 64px 100px 32px;
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	background: rgba(0, 0, 0, 0.44);
+}
+
+.IntroSectionDiv {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.IntroSectionDiv p {
+	height: 29px;
+	width: 81px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.IntroSectionDiv div:first-child {
+	width: 26px;
+	height: 32px;
+	background-image: url("/assets/svg/person.svg");
+	margin-left: 8px;
+}
+
+.IntroSectionDiv div:last-child {
+	width: 24px;
+	height: 24px;
+	background-image: url("/assets/svg/chevron-down.svg");
+	margin-right: 8px;
+}
+
+.IntroSectionnavLinks {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 74px;
+	height: 45px;
+}
+
+.IntroSectionlink {
+	height: 29px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: right;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.IntroSectionlogo {
+	width: 64px;
+	height: 56px;
+	background-image: url("/assets/svg/svgg.svg");
+}
+
+.IntroSectiontext {
+	position: absolute;
+	width: calc(100% - 622px);
+	height: 72px;
+	top: 337px;
+	margin: 0 311px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 72px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.IntroSectionSearchInput {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	position: absolute;
+	width: calc(100% - 756px);
+	margin: 0 378px;
+	height: 72px;
+	top: 460px;
+}
+
+.IntroSectionSearchInput i {
+	position: absolute;
+	margin-right: 24px;
+	width: 32px;
+	height: 32px;
+	background-image: url("/assets/svg/searchIcon.svg");
+}
+
+.IntroSectionSearchInput input {
+	height: 72px;
+	width: 100%;
+	padding: 12px 24px;
+	padding-right: 64px;
+	gap: 10px;
+	background: rgba(255, 255, 255, 0.24);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 32px;
+	border: 0;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28.8px;
+	text-align: right;
+	color: #ffffff;
+	opacity: 1;
+	outline: none;
+}
+
+::placeholder {
+	color: #ffffff;
+}

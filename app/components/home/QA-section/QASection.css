@@ -1,0 +1,49 @@
+
+
+.QASection {
+	height: 198px;
+	width: calc(100% - 200px);
+	margin: 0 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	padding: 16px;
+	background: #ffffff;
+	border-radius: 12px;
+}
+.QASectionHeader {
+	align-items: center;
+	position: relative;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+	height: 64px;
+}
+.QASectionHeader i {
+	width: 64px;
+	height: 64px;
+	background-image: url("/assets/svg/articalIcon.svg");
+}
+.QASectionHeader p {
+	height: 41px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: right;
+	color: #1f1f1f;
+	margin-right: 6px;
+}
+
+.QASectionBody {
+	height: 70px;
+	font-family: "Tajawal";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 35px;
+	text-align: right;
+	color: rgba(31, 31, 31, 0.6);
+}
